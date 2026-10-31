@@ -1,0 +1,20 @@
+COMO GERAR O APK PELO GITHUB (NO CELULAR)
+
+1. No GitHub, crie um repositório novo chamado Tobirama-Sensi.
+2. Extraia o arquivo ZIP do projeto no celular.
+3. Envie o conteúdo da pasta para a raiz do repositório, mantendo a estrutura:
+   - app/
+   - .github/workflows/android.yml
+   - build.gradle.kts
+   - settings.gradle.kts
+   - gradle.properties
+4. Faça commit dos arquivos na branch main.
+5. Abra a aba Actions do repositório.
+6. Se aparecer aviso, habilite GitHub Actions para o repositório.
+7. Abra o workflow "Build Tobirama Sensi APK" e aguarde terminar.
+8. Na execução concluída, abra Artifacts e baixe "Tobirama-Sensi-debug".
+9. Extraia o artifact ZIP e instale app-debug.apk no Android.
+10. Ao abrir o app, toque em Ativar bolinha flutuante e conceda "Exibir sobre outros apps".
+
+Não compartilhe senha, token ou códigos de autenticação.
+O APK é um protótipo visual: não altera o Free Fire, não manipula mira e não mostra adversários.
